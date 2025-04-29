@@ -10016,7 +10016,7 @@ precisefp:
         verification:
             method: GET
             endpoints:
-                - /api/v1/user
+                - /api/v3/user
     docs: https://docs.nango.dev/integrations/all/precisefp
 
 webflow:
