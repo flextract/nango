@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256px" height="256px" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>PreciseFP</title>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#FFFFFF" x="0" y="0" width="256" height="256"></rect>
+        <g transform="translate(28.000000, 64.000000)" fill="#0066CC" fill-rule="nonzero">
+            <path d="M20,0 L180,0 C191.046,0 200,8.954 200,20 L200,108 C200,119.046 191.046,128 180,128 L20,128 C8.954,128 0,119.046 0,108 L0,20 C0,8.954 8.954,0 20,0 Z M40,32 L40,96 L60,96 L60,80 L76,80 C84.837,80 92,72.837 92,64 L92,48 C92,39.163 84.837,32 76,32 L40,32 Z M60,48 L76,48 L76,64 L60,64 L60,48 Z M108,32 L108,96 L128,96 L128,72 L144,96 L168,96 L144,64 L168,32 L144,32 L128,56 L128,32 L108,32 Z"></path>
+        </g>
+    </g>
+</svg>
