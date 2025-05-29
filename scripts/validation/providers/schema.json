@@ -368,30 +368,33 @@
                 },
                 "additional_steps": {
                     "type": "array",
-                    "additionalProperties": true,
-                    "properties": {
-                        "body_format": {
-                            "type": "string",
-                            "enum": ["form"]
-                        },
-                        "token_params": {
-                            "type": "object"
-                        },
-                        "token_headers": {
-                            "type": "object",
-                            "properties": {
-                                "content-type": {
-                                    "type": "string",
-                                    "enum": ["application/x-www-form-urlencoded"]
-                                }
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": true,
+                        "properties": {
+                            "body_format": {
+                                "type": "string",
+                                "enum": ["form"]
                             },
-                            "required": ["content-type"]
+                            "token_params": {
+                                "type": "object"
+                            },
+                            "token_headers": {
+                                "type": "object",
+                                "properties": {
+                                    "content-type": {
+                                        "type": "string",
+                                        "enum": ["application/x-www-form-urlencoded"]
+                                    }
+                                },
+                                "required": ["content-type"]
+                            },
+                            "token_url": {
+                                "type": "string"
+                            }
                         },
-                        "token_url": {
-                            "type": "string"
-                        }
-                    },
-                    "required": ["body_format", "token_url"]
+                        "required": ["body_format", "token_url"]
+                    }
                 },
                 "scope_separator": {
                     "type": "string"
